@@ -103,39 +103,62 @@ body{
     height: 1600px;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 #mainText_1{
-    padding-top: 320px;
-    padding-left: 550px;
+    padding-left: 570px;
+    padding-top: 300px;
     color: white;
     font-size: 39px;
     font-weight: bolder;
     font-family: Open Sans, sans-serif;
+    position: absolute;
 }
 
-.mainText_2{
+.mainText_2_1{
+    padding-top: 320px;
+    padding-left: 420px;
     color: white;
     font-size: 14px;
     width: 716px;
     margin: 0 auto;
     line-height: 2;
     font-family: Open Sans, sans-serif;
+    position: absolute;
+}
+
+.mainText_2_2{
+    padding-top: 410px;
+    padding-left: 420px;
+    color: white;
+    font-size: 14px;
+    width: 716px;
+    margin: 0 auto;
+    line-height: 2;
+    font-family: Open Sans, sans-serif;
+    position: absolute;
 }
 
 #mainText_1_1{
-    padding-top: 335px;
-    padding-left: 700px;
+    padding-top: 970px;
+    padding-left: 650px;
     color: white;
     font-size: 39px;
     font-weight: bolder;
     font-family: Open Sans, sans-serif;
+    position: absolute;
 }
 
 #mainText_1_2{
+    padding-top: 1020px;
+    padding-left: 660px;
+    color: white;
+    font-size: 14px;
     width: 600px;
-    padding-left: 490px;
+    line-height: 2;
     font-family: Open Sans, sans-serif;
+    position: absolute;
 }
 
 #mainButton{
@@ -148,6 +171,9 @@ body{
     font-size: 26px;
     margin-left: 710px;
     font-family: Open Sans, sans-serif;
+    margin-top: 1220px;
+    margin-left: 660px;
+    position: absolute;
 }
 
 .contacts{
@@ -188,4 +214,168 @@ body{
 
 #contButton{
     display: none;
+}
+
+#mainImg1{
+    padding-top: 100px;
+    padding-left: 23%;
+    position: absolute;
+}
+
+#mainImg2{
+    padding-top: 1000px;
+    padding-left: 5%;
+    position: absolute;
+}
+
+@media (min-width: 320px) and (max-width: 465px){
+    #headerForm{
+        width: 90%;
+    }
+
+    #formImg{
+        width: 100%;
+    }
+
+    .DocPhot{
+        margin-top: 295px;
+        flex-direction: column;
+    }
+
+    .DocPhot div{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main{
+        margin-top: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mainImg1{
+        display: none;
+    }
+
+    #mainImg2{
+        display: none;
+    }
+
+    .main div{
+        padding-left: 15px;
+        width: 90%;
+        text-align: center;
+    }
+
+    #mainText_1{
+        padding-left: 15px;
+        padding-top: 50px;
+    }
+
+    .mainText_2_1{
+        padding-top: 160px;
+    }
+
+    .mainText_2_2{
+        padding-top: 370px;
+    }
+
+    #mainText_1_1{
+        padding-left: 15px;
+        padding-top: 990px;
+    }
+
+    #mainText_1_2{
+        width: 90%;
+        padding-left: 15px;
+        padding-top: 1120px;
+    }
+
+    #contactsForm{
+        width: 90%;
+        padding-left: 10px;
+    }
+
+    #contImg{
+        padding-left: 0px;
+        padding-top: 280px;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 466px) and (max-width: 565px){
+    body {
+        overflow-x: hidden;
+    }
+
+    #formImg{
+        width: 100%;
+    }
+
+    .DocPhot{
+        margin-top: 295px;
+        flex-direction: column;
+    }
+
+    .DocPhot div{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .main{
+        margin-top: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #mainImg1{
+        display: none;
+    }
+
+    #mainImg2{
+        display: none;
+    }
+
+    .main div{
+        padding-left: 15px;
+        width: 90%;
+        text-align: center;
+    }
+
+    #mainText_1{
+        padding-left: 15px;
+        padding-top: 50px;
+    }
+
+    .mainText_2_1{
+        padding-top: 160px;
+    }
+
+    .mainText_2_2{
+        padding-top: 370px;
+    }
+
+    #mainText_1_1{
+        padding-left: 15px;
+        padding-top: 990px;
+    }
+
+    #mainText_1_2{
+        width: 90%;
+        padding-left: 15px;
+        padding-top: 1120px;
+    }
+
+    .contacts{
+        width: 100%;
+    }
+
+    #contactsForm{
+        padding-left: 23%;
+    }
+
+    #contImg{
+        padding-left: 3%;
+    }
 }
